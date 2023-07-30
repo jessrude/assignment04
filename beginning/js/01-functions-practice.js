@@ -7,3 +7,10 @@
 //STEP 4
 
 //STEP 5
+
+<p id="Element">Head</p>
+function myFunction() 
+{
+   let x = document.getElementsById("Element");
+   alert(x.innerHTML);
+}
